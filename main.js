@@ -11,6 +11,6 @@ var orderPizza = function() {
   console.log(pizza.crust);
   console.log(pizza.cheese);
   console.log(pizza.sauce);
-  console.log(pizza.addToppings);
+  pizza.addToppings();
 }
 orderPizza();
